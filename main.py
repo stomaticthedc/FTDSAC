@@ -57,9 +57,7 @@ end_edge = 10
 end_n = end_edge * edge_n
 content_n = 50
 request_t = 50
-c_c = 1
-u_c = 10
-cl_c = 5
+
 
 def zipf(content_n, end_n, table, t_request, a=1):
     if len(table.shape) == 1:
